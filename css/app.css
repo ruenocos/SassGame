@@ -1,5 +1,13 @@
+body h1 {
+  color: white;
+}
+
+body h4 {
+  color: white;
+}
+
 #hero {
-  background: url("/assets/bg.jpg");
+  background: url("/assets/bg.png");
   background-size: cover;
   background-position: 0 60%;
 }
