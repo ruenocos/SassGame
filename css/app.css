@@ -7,7 +7,7 @@ body h4 {
 }
 
 #hero {
-  background: url("/assets/bg.png");
+  background: url("/assets/bg.jpg");
   background-size: cover;
   background-position: 0 60%;
 }
@@ -50,6 +50,15 @@ body h4 {
   }
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.hero-img {
+  width: 80%;
+}
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -83,7 +92,7 @@ body h4 {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "raleway", Roboto, "Helvetica Neue", "Arial", sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -113,7 +122,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "raleway", Roboto, "Helvetica Neue", "Arial", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5913,7 +5922,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "raleway", Roboto, "Helvetica Neue", "Arial", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6026,7 +6035,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "raleway", Roboto, "Helvetica Neue", "Arial", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8114,6 +8123,30 @@ button.bg-dark:focus {
   margin-left: 3rem !important;
 }
 
+.m-6 {
+  margin: 9rem !important;
+}
+
+.mt-6,
+.my-6 {
+  margin-top: 9rem !important;
+}
+
+.mr-6,
+.mx-6 {
+  margin-right: 9rem !important;
+}
+
+.mb-6,
+.my-6 {
+  margin-bottom: 9rem !important;
+}
+
+.ml-6,
+.mx-6 {
+  margin-left: 9rem !important;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -8258,6 +8291,30 @@ button.bg-dark:focus {
   padding-left: 3rem !important;
 }
 
+.p-6 {
+  padding: 9rem !important;
+}
+
+.pt-6,
+.py-6 {
+  padding-top: 9rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 9rem !important;
+}
+
+.pb-6,
+.py-6 {
+  padding-bottom: 9rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 9rem !important;
+}
+
 .m-auto {
   margin: auto !important;
 }
@@ -8397,6 +8454,25 @@ button.bg-dark:focus {
   .mx-sm-5 {
     margin-left: 3rem !important;
   }
+  .m-sm-6 {
+    margin: 9rem !important;
+  }
+  .mt-sm-6,
+  .my-sm-6 {
+    margin-top: 9rem !important;
+  }
+  .mr-sm-6,
+  .mx-sm-6 {
+    margin-right: 9rem !important;
+  }
+  .mb-sm-6,
+  .my-sm-6 {
+    margin-bottom: 9rem !important;
+  }
+  .ml-sm-6,
+  .mx-sm-6 {
+    margin-left: 9rem !important;
+  }
   .p-sm-0 {
     padding: 0 !important;
   }
@@ -8510,6 +8586,25 @@ button.bg-dark:focus {
   .pl-sm-5,
   .px-sm-5 {
     padding-left: 3rem !important;
+  }
+  .p-sm-6 {
+    padding: 9rem !important;
+  }
+  .pt-sm-6,
+  .py-sm-6 {
+    padding-top: 9rem !important;
+  }
+  .pr-sm-6,
+  .px-sm-6 {
+    padding-right: 9rem !important;
+  }
+  .pb-sm-6,
+  .py-sm-6 {
+    padding-bottom: 9rem !important;
+  }
+  .pl-sm-6,
+  .px-sm-6 {
+    padding-left: 9rem !important;
   }
   .m-sm-auto {
     margin: auto !important;
@@ -8647,6 +8742,25 @@ button.bg-dark:focus {
   .mx-md-5 {
     margin-left: 3rem !important;
   }
+  .m-md-6 {
+    margin: 9rem !important;
+  }
+  .mt-md-6,
+  .my-md-6 {
+    margin-top: 9rem !important;
+  }
+  .mr-md-6,
+  .mx-md-6 {
+    margin-right: 9rem !important;
+  }
+  .mb-md-6,
+  .my-md-6 {
+    margin-bottom: 9rem !important;
+  }
+  .ml-md-6,
+  .mx-md-6 {
+    margin-left: 9rem !important;
+  }
   .p-md-0 {
     padding: 0 !important;
   }
@@ -8760,6 +8874,25 @@ button.bg-dark:focus {
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important;
+  }
+  .p-md-6 {
+    padding: 9rem !important;
+  }
+  .pt-md-6,
+  .py-md-6 {
+    padding-top: 9rem !important;
+  }
+  .pr-md-6,
+  .px-md-6 {
+    padding-right: 9rem !important;
+  }
+  .pb-md-6,
+  .py-md-6 {
+    padding-bottom: 9rem !important;
+  }
+  .pl-md-6,
+  .px-md-6 {
+    padding-left: 9rem !important;
   }
   .m-md-auto {
     margin: auto !important;
@@ -8897,6 +9030,25 @@ button.bg-dark:focus {
   .mx-lg-5 {
     margin-left: 3rem !important;
   }
+  .m-lg-6 {
+    margin: 9rem !important;
+  }
+  .mt-lg-6,
+  .my-lg-6 {
+    margin-top: 9rem !important;
+  }
+  .mr-lg-6,
+  .mx-lg-6 {
+    margin-right: 9rem !important;
+  }
+  .mb-lg-6,
+  .my-lg-6 {
+    margin-bottom: 9rem !important;
+  }
+  .ml-lg-6,
+  .mx-lg-6 {
+    margin-left: 9rem !important;
+  }
   .p-lg-0 {
     padding: 0 !important;
   }
@@ -9010,6 +9162,25 @@ button.bg-dark:focus {
   .pl-lg-5,
   .px-lg-5 {
     padding-left: 3rem !important;
+  }
+  .p-lg-6 {
+    padding: 9rem !important;
+  }
+  .pt-lg-6,
+  .py-lg-6 {
+    padding-top: 9rem !important;
+  }
+  .pr-lg-6,
+  .px-lg-6 {
+    padding-right: 9rem !important;
+  }
+  .pb-lg-6,
+  .py-lg-6 {
+    padding-bottom: 9rem !important;
+  }
+  .pl-lg-6,
+  .px-lg-6 {
+    padding-left: 9rem !important;
   }
   .m-lg-auto {
     margin: auto !important;
@@ -9147,6 +9318,25 @@ button.bg-dark:focus {
   .mx-xl-5 {
     margin-left: 3rem !important;
   }
+  .m-xl-6 {
+    margin: 9rem !important;
+  }
+  .mt-xl-6,
+  .my-xl-6 {
+    margin-top: 9rem !important;
+  }
+  .mr-xl-6,
+  .mx-xl-6 {
+    margin-right: 9rem !important;
+  }
+  .mb-xl-6,
+  .my-xl-6 {
+    margin-bottom: 9rem !important;
+  }
+  .ml-xl-6,
+  .mx-xl-6 {
+    margin-left: 9rem !important;
+  }
   .p-xl-0 {
     padding: 0 !important;
   }
@@ -9260,6 +9450,25 @@ button.bg-dark:focus {
   .pl-xl-5,
   .px-xl-5 {
     padding-left: 3rem !important;
+  }
+  .p-xl-6 {
+    padding: 9rem !important;
+  }
+  .pt-xl-6,
+  .py-xl-6 {
+    padding-top: 9rem !important;
+  }
+  .pr-xl-6,
+  .px-xl-6 {
+    padding-right: 9rem !important;
+  }
+  .pb-xl-6,
+  .py-xl-6 {
+    padding-bottom: 9rem !important;
+  }
+  .pl-xl-6,
+  .px-xl-6 {
+    padding-left: 9rem !important;
   }
   .m-xl-auto {
     margin: auto !important;

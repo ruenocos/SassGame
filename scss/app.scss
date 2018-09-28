@@ -1,3 +1,7 @@
+@import "/scss/navbar";
+
+
+
 body {
     
     h1 {
@@ -10,46 +14,21 @@ body {
 }
 
 #hero{
-    background: url('/assets/bg.png');
+    background: url('/assets/bg.jpg');
     background-size: cover;
     background-position: 0 60%;
 }
 
 
-.navbar{
 
-    width: 100%;
-    background: none !important;
 
-    @media(max-width: 34em) {
-        background: black !important;
-    }
+h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+}
 
-    .navbar-toggler {
-        cursor: pointer;
-        outline: 0;
-    }
-
-    .nav-link{
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-
-    .nav-item{
-        padding: 0 1rem;
-
-        @media(max-width: 34em) {
-            padding: 0;
-        }
-    }
-
-    .nav-link{
-        @media(max-width: 34em) {
-            font-weight: normal;
-            color: #fff !important;
-        }
-    }
-
+.hero-img {
+    width: 80%;
 }
 
 $green:       #00FFC4;
@@ -57,7 +36,23 @@ $primary:       $green;
 $link-color:    $green;
 $body-bg:     #1a1b1d;
 
-$font-family-sans-serif: "raleway", Roboto, "Helvetica Neue", "Arial", sans-serif;
+$font-family: 'Raleway', sans-serif;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 9)
+  ),
+  $spacers
+);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
