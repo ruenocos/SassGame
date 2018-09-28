@@ -2,46 +2,10 @@
 @import "../scss/navbar";
 
 //body markup
-@import "../scss/body";
+@import "../scss/hero";
 
-#hero{
-    background: url('/assets/bg.jpg');
-    background-size: cover;
-    background-position: 0 60%;
-}
-
-.hero-img {
-    width: 80%;
-}
-
-#join-container {
-    background: url(/assets/screen1.jpg) no-repeat;
-    background-size: cover;
-
-    h2 {
-        letter-spacing: 4px;
-        font-weight: bold;
-        color: white;
-    }
-
-    h4 {
-        color: grey;
-    }
-
-    .form-control {
-        background: #1f1f1f;
-        border: 3px solid #2f2f2f;
-        padding: 10px;
-    }
-
-    .btn {
-        padding: 12px;
-        border: none;
-        color: #000;
-        cursor: pointer;
-    }
-}
-
+//bottom part
+@import "../scss/bottom";
 
 //primary colors
 $green:       #00FFC4;
@@ -68,6 +32,10 @@ $spacers: map-merge(
   ),
   $spacers
 );
+
+body {
+  overflow:hidden;
+}
 
 //main-import
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

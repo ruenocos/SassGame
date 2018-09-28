@@ -36,22 +36,18 @@
   }
 }
 
-#hero h1 {
-  color: white;
+#hero {
+  background: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: 0 60%;
 }
 
-#hero h2 {
+#hero h1 {
   color: white;
 }
 
 #hero h4 {
   color: white;
-}
-
-#hero {
-  background: url("/assets/bg.jpg");
-  background-size: cover;
-  background-position: 0 60%;
 }
 
 .hero-img {
@@ -77,6 +73,7 @@
   background: #1f1f1f;
   border: 3px solid #2f2f2f;
   padding: 10px;
+  height: 100%;
 }
 
 #join-container .btn {
@@ -84,6 +81,11 @@
   border: none;
   color: #000;
   cursor: pointer;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
 }
 
 /*!
