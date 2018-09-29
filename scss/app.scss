@@ -28,14 +28,11 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
+    //custom spacers
     6: ($spacer * 9)
   ),
   $spacers
 );
-
-body {
-  overflow:hidden;
-}
 
 //main-import
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
